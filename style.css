@@ -1,0 +1,576 @@
+@media screen and (max-width: 768px){
+  
+    .added-product{
+      height: 150px;
+    }
+  
+    .added-product  img{
+      height: 150px;
+      width: 200px;
+    }
+
+    .cart{
+      flex-direction: column;
+    }
+  
+    .cart-total{
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+ 
+    .buy{
+      max-width: 95%;
+    }
+    .footer{
+      margin-bottom: 60px;
+    }
+
+    input[type=text], [type=email]{
+      width: 80%;
+    }
+  }
+
+
+
+ 
+  html{
+    scroll-behavior: smooth;
+    }
+
+  body{
+    background-color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .1rem;
+    color:black;
+  }
+
+
+  header{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    position: relative; 
+}
+
+
+
+  /*----NAV---*/
+  
+  nav {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    height: 105px;
+  
+  }
+
+  .nav__logo{
+    margin-left:5%;
+    display: inline-block; 
+  }
+
+  .nav__list {
+    list-style-type: none;
+  }
+  
+  .nav__item {
+    display: inline-block;
+    margin-right: 80px;
+
+  }
+  .nav__link{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    display: flex; 
+    justify-content: space-around;
+    width: 30%;
+  }
+
+  .nav_img{
+    width: 125px;
+    display: flex; 
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+ 
+  a:hover {
+    color:#e9ae86; 
+    cursor: pointer;
+   
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+
+  
+/*---HOME----*/
+.home__shop {
+  height: 700px;
+  width:100%;
+  margin-bottom: 2rem;
+  margin-top: 5px;
+  flex-basis: 50%;
+  background: url(https://www.dropbox.com/s/g7shza1gdcawq2p/corgi.jpg?raw=1) center/cover no-repeat;
+  text-align: center;
+  
+}
+
+
+.home__shop h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px ;
+  padding: 50px;
+  
+}
+.button {
+  display: inline-block;
+  background: #e9ae86;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 5px;
+  transition: background 0.5s;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: #d36923; 
+  color: #fff;
+}
+
+/*----PRODUKTER----*/
+
+.title {
+  text-align: center;
+  margin: 5%;
+  margin-left: 5%;
+  position: relative;
+  line-height: 60px;
+  color: rgb(61, 61, 61);
+ }
+
+  .product-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .products {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+  }
+  
+  .products img {
+    width: 100%;
+  }
+
+
+  .product-section {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+  }
+
+  .products:hover {
+    transform: translateY(-5px);
+  }
+
+  .stars{
+    color: rgb(248, 184, 66);
+  }
+
+
+  /*---ABOUT PAGE---*/
+  .aboutus{
+    text-align: center;
+    padding-top: 30px;
+
+  }
+
+  .about-txt{
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+
+  #video{
+  height: 500px;
+  width: 400px;
+  padding-top: 80px;
+  
+  }   
+
+  .videoCaption{
+    font-size: 20px;
+    
+  }
+
+ .video1{ 
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  
+ }
+
+ .gif{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  padding-top: 40px;
+ }
+
+ .aboutus h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px ;
+  padding: 10px;
+  
+ }
+
+ .aboutus p{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 25px ;
+  padding: 10px;
+ }
+
+  /*---TESTIMONIAL----*/
+  .testimonial {
+    padding-top: 100px;
+  }
+
+  .testimonial-section {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-bottom: 20px;
+  }
+  .testimonial-section img {
+    width: 250px;
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+  
+  .testimonial-section:hover {
+    transform: translateY(-10px);
+  }
+  
+  .testimonial-section p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+  }
+  
+  .testimonial-section h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+  }
+
+  .t-container{
+  max-width: 80%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
+
+
+ 
+
+
+/*----KASSA ----*/
+
+.buy{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.buy h1{
+  text-align: center;
+  font-size: 45px;
+  line-height: 60px;
+  margin: 25px ;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.cart{
+	display: flex;
+}
+
+.added-products{
+  flex: 0.75;
+}
+
+.added-product{
+	display: flex;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	border: 1px solid silver;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.added-product:hover{
+	border: none;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	transform: scale(1.01);
+}
+
+.added-product img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.product-info{
+  position: relative;
+	padding: 20px;
+	width: 100%;
+}
+
+.product-name, .product-price{
+	margin-bottom: 20px;
+}
+
+.button-remove {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 25px;
+	background-color: rgb(226, 71, 71);
+	color: white;
+	cursor: pointer;
+  border-radius: 10px;
+  border-color: rgb(226, 71, 71);
+}
+
+.button-remove:hover {
+  background-color: white;
+  color: rgb(226, 71, 71);
+}
+
+.button-c{
+  position: relative;
+	top: 15px;
+	left: 50px;
+	padding: 10px 25px;
+	background-color:  #e9ae86;
+	color: white;
+	cursor: pointer;
+  border-radius: 10px;
+  border-color: #e9ae86;
+  
+}
+
+.button-c:hover{
+  background-color: #d36923; 
+  color: #fff;
+}
+
+.product-quantity input{
+	width: 40px;
+	padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.cart-total{
+	flex: 0.25;
+	margin-left: 20px;
+	padding: 20px;
+	height: 100px;
+	border: 1px solid silver;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cart-total p{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+/*-----NEWSLETTER-----*/
+
+.newsletter {
+  height: 200px;
+  margin-top: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 500px;
+}
+
+.form {
+  bottom: 10px;
+  width: 100%;
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(35,0,77,.2);
+}
+
+
+.newsletter-box{
+  grid-template-columns: max-content 1fr;
+  column-gap: 4px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-left: 35%;
+  border-radius: 10px;
+  width:30%;
+}
+
+input[type=text], [type=email],[type=subject]{
+  width: 65%;
+  padding: 8px 19px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #e9ae86;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 10px;
+}
+
+input[type=text]:focus, [type=email]:focus{
+  border: 3px solid #da8c58;
+  background-color: rgb(235, 235, 235);
+}
+
+textarea {
+  border: 3px solid #e9ae86;
+  border-radius: 10px;
+  width: 100%;  
+}
+
+.button-n{
+  display: block;
+  padding: 10px 40px;
+  margin-left: 44%;
+  background-color:#e9ae86;
+  color: #FFF;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.button-n:hover{
+  background-color: #d36923; 
+  color: #fff;
+}
+
+.review-message{
+  border: 3px solid #e9ae86;
+  border-radius: 10px;
+  width: 70%;
+  padding: 10px, 19px, 8px, 8px;
+}
+
+.customer-name{
+  margin-left: 30px;
+  padding: 8px 19px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #e9ae86;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 10px;
+}
+
+.review-form{
+ margin-top: 30px;
+ margin-bottom: 60px;
+}
+
+.review-title{
+ text-align: center;
+ margin-top: 20px;
+}
+
+
+
+.customers-stars{
+  margin-left: 30px;
+  padding: 8px 19px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #e9ae86;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 10px;
+}
+ 
+/*---FOOTER----*/
+.footer{
+  background-color: rgb(77, 75, 76);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+  
+  
+}
+
+li{
+list-style: none;
+padding: 5px;
+}
+
+.footer__icon{
+  color: white;
+  margin-inline: 10px;
+ 
+}
+
+.footer__title{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer__container{
+  row-gap: 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.contact{
+  margin-left: 90px;
+  margin-bottom:50px;
+
+
+}

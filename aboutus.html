@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel="icon" href="https://www.dropbox.com/s/7k1z9ic5t9cf2o3/logo.PNG?raw=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="home.html" class="nav__logo"> <img src="https://www.dropbox.com/s/7k1z9ic5t9cf2o3/logo.PNG?raw=1"
+          alt="Logo" class="nav_img"></a>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="home.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="aboutus.html" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="kassa.html" class="nav__link"><i class='bx bx-shopping-bag bx-sm'></i></a>
+
+      </ul>
+
+
+    </nav>
+  </header>
+  <main>
+    <section class="aboutus">
+
+      <article class="about-txt">
+        <h1>About us</h1>
+        We are Chispita Art. This company was founded by <strong>Gabriela</strong>. We make Resin tags for dogs and
+        cats!
+        But what is resin?
+        <br>
+        Resins are widely used in building as adhesives, coatings or as a construction material when a strong bond is
+        required. <br>
+        For example, for laminated wood construction. Resins are also popular in the decoration of self-leveling
+        floors
+        and
+        <br>architectural surfaces enabling to use of recycled materials. We use resin for art!
+        <br>Our dog tags are in two diferent sizes for big dogs and for puppies! <strong>Do not let your dog chew their
+          tag!</strong>
+        <br>
+        <blockquote><mark>Shiping only in Sweden!</mark></blockquote>
+
+      </article>
+
+      <figure class="gif">
+
+        <img src="https://www.dropbox.com/s/can3y1amwba591q/tagsGif.gif?raw=1" alt="tags">
+        <figcaption class="videoCaption">
+          <pre>New products coming soon!</pre>
+        </figcaption>
+
+      </figure>
+
+      <aside class="video1">
+        <pre class="videoCaption">Video of our dog tags that <br>sparkles with the light!</pre>
+        <video src="https://www.dropbox.com/s/ttt2o6o532hkatm/resin.mp4?raw=1" muted autoplay loop id="video"></video>
+      </aside>
+
+    </section>
+
+
+
+    <!----Testimonial---->
+
+    <section class="testimonial">
+      <h2 class="title">Testimonials</h2>
+      <section class="t-container">
+        <section class="te">
+          <section class="testimonial-section">
+            <h3>Diego</h3>
+            <p>
+              My dog Eira loves her new tag! The tag is really beautiful and durable!<br>
+              The pink color fits Eira! Thanks to Chispita!
+            </p>
+            <section class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </section>
+            <img src="https://www.dropbox.com/s/tzqlcp40v47xgzi/eira.jpg?raw=1" alt="Eira" />
+          </section>
+
+          <section class="testimonial-section">
+            <h3>Elsy</h3>
+            <p>
+              My dog Millie liked her new tag a lot!
+              The tag sparkles wich is very good when <br>you go outside with your dog!
+              Many thanks to Chispita!
+            </p>
+            <section class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </section>
+            <img src="https://www.dropbox.com/s/tuvgzggiirjlox8/millie.jpg?raw=1" alt="Millie" />
+          </section>
+
+
+          <section class="testimonial-section">
+            <h3>Markus</h3>
+            <p>
+              I recommend Chispita to all my friends! This is my second time buying a dog tag here!
+              <br> This time i bought a transparent one, and i love it!
+            </p>
+            <section class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </section>
+            <img src="https://www.dropbox.com/s/4b9z4yubgv0mldx/dog2.jpg?raw=1" alt="Kappa" />
+          </section>
+
+        </section>
+      </section>
+    </section>
+
+
+    <section id="review-container" class="review">
+      <section id="review-form-container">
+        <!-- EXPLODE -->
+        <h2 class="review-title">Make a review</h2>
+        <form method="post" action="review.php" enctype="multipart/form-data" class="review-form" onsubmit="reviewFunction()">
+
+
+          <section class="newsletter-box">
+          
+            <input type="customer-name" name="customer-name" placeholder="Your name" class="customer-name" required>
+         
+            <textarea name="review-message"  class="review-message" rows="10" cols="25" placeholder="Review"></textarea>
+
+            <section class="form-input">
+              <input list="stars-list" name="stars" placeholder="Stars" class="customers-stars" required>
+              <datalist id="stars-list">
+                <option value="0"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+              </datalist>
+            </section>
+            <br>
+          </section>
+          <input type="submit" value="Submit!" class="button-n">
+      </section>
+     </section>
+      </form>
+      <!-- EXPLODE -->
+
+  </main>
+
+  <footer class="footer">
+
+    <p>CHISPITA BY GABRIELA</p>
+    <section class="footer__container bd-grid">
+      <section class="footer__social">
+        <p class="footer__title">SOCIAL MEDIA</p>
+        <a href="https://www.instagram.com/chispita_art/" class="footer__icon"><i
+            class='bx bxl-instagram bx-md'></i></a>
+        <a href="https://www.tiktok.com/@chispita.art?lang=sv-SE" class="footer__icon"><i
+            class='bx bxl-tiktok bx-md'></i></a>
+      </section>
+
+      <section class="contact">
+        <p class="footer__title">CONTACT</p>
+        <ul>
+          <li>chispita@info.se </li>
+          <li>Tel: +46712345678</li>
+        </ul>
+      </section>
+
+    </section>
+
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

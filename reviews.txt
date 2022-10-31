@@ -1,0 +1,24 @@
+customer-name: Gabriela
+review-message: bra bra 
+stars: 5
+
+
+
+customer-name: Erik
+review-message: Bra produkter!
+stars: 4
+
+
+
+customer-name: Manuel
+review-message: Fina produkter!
+stars: 3
+
+
+
+customer-name: Fernanda
+review-message: Jag köpte 2 stycken och de är fina! 
+stars: 4
+
+
+
