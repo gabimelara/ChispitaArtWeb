@@ -2,7 +2,7 @@
 
 This is an ongoing project. 
 An e-commerce website for dog accessories. This project is to show design, the page is static. But some buttons work. I will continue to improve this project soon.
-The website is done with html, css and javascript so far. 
+The website is done with html, css and php so far. 
 
 <img width="1427" alt="Homepage" src="https://user-images.githubusercontent.com/68075493/214542021-24c0c707-6648-422c-b481-59cac605397d.png">
 <img width="1427" alt="products1" src="https://user-images.githubusercontent.com/68075493/214542032-a1dfcfaf-d59a-469c-8205-257afb85afae.png">
